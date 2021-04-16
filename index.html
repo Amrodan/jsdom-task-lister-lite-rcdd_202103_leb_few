@@ -26,7 +26,7 @@
         var tasks = document.querySelector("#tasks");
         submit.addEventListener("click", function(e) {
           e.preventDefault();
-    
+
           var li = document.createElement("li"); // create an li
           li.textContent = input.value;          // set its text content to input's value
           tasks.appendChild(li);          // add it to the ul
