@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   let ads = document.getElementById("new-task-description");
- 
+
   let submit = document.getElementsByTagName("input")[1];
      let tasks = document.querySelector("#tasks");
 
